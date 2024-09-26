@@ -1,217 +1,231 @@
-html , body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 }
 
-.content{
-    display: flex;
-    flex-grow: 1;
+.content {
+	display: flex;
+	flex-grow: 1;
 }
 
-#find-form,#giveaway-form, #sign-up, #log-in {
-    background-color: white;
-    border: 5px grey solid;
-    height: 200px;
-    width: 60%;
-    padding: 30px;
-    height: fit-content;
-    margin-bottom: 40px;
+#find-form,
+#giveaway-form,
+#sign-up,
+#log-in {
+	background-color: white;
+	border: 2px grey solid;
+	height: 200px;
+	width: 60%;
+	padding: 30px;
+	height: fit-content;
+	margin-bottom: 40px;
 }
 
 #contact {
-    list-style: none;
+	list-style: none;
 }
 #contact li {
-    padding: 7px;
-    font-size: larger;
+	padding: 7px;
+	font-size: larger;
 }
-form select, input {
-    margin-bottom: 10px;
+form select,
+input {
+	margin-bottom: 10px;
 }
 
-header, main, nav, footer {
-    outline: 3px solid black;
+header,
+main,
+nav,
+footer {
+	outline: 1px solid black;
 }
 
 form input {
-    padding: 5px;
+	padding: 5px;
 }
 form select {
-    padding: 5px;
+	padding: 5px;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(255, 240, 222);
-    padding: 20px;
-    width:100%;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(241, 241, 241);
+	padding: 20px;
+	width: 100%;
+	align-items: center;
 }
 
 main p {
-    padding: 0px 90px;
-    font-size: 20px;
+	padding: 0px 90px;
+	font-size: 20px;
 }
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    background-color: rgb(41, 41, 41);
-    padding: 10px;
-    color: white;
-    font-size: large;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	background-color: rgb(41, 41, 41);
+	padding: 10px;
+	color: white;
+	font-size: large;
 }
 
 header img {
-    border: 3px solid black;
-    border-radius: 50%;
-    width: 90px;
-    height: auto;
-    margin: 10px;
+	border: 3px solid black;
+	border-radius: 50%;
+	width: 90px;
+	height: auto;
+	margin: 10px;
 }
 
 nav {
-    background-color: rgb(137, 137, 137);
-    width: 20%;
-    height: 100%;
+	background-color: rgb(137, 137, 137);
+	width: 20%;
+	height: 100%;
 }
 
 nav ul {
-    padding: 10px;
-    list-style-type: none;
+	padding: 10px;
+	list-style-type: none;
 }
 
-nav a{
-    justify-content: center;
-    padding: 10px;
-    margin: 0px;
-    display: block;
-    color: white;
-    text-decoration: none;
-    border: solid black 2px;
+nav a {
+	justify-content: center;
+	padding: 10px;
+	margin: 0px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	border: solid black 2px;
+	border-radius: 7px;
 }
 
 nav a#active {
-    background-color: rgb(0, 0, 0);
+	background-color: rgb(0, 0, 0);
 }
 
-nav a:hover{
-    background-color: rgb(65, 65, 65);
+nav a:hover {
+	background-color: rgb(65, 65, 65);
 }
 
 nav li {
-    padding: 10px;
+	padding: 10px;
 }
 footer {
-    background-color: rgb(180, 255, 104);
-    min-height: 120px;
-    padding: 5px;
-    margin-top: auto;
-    text-align: center;
+	background-color: rgb(198, 198, 198);
+	min-height: 120px;
+	padding: 5px;
+	margin-top: auto;
+	text-align: center;
 }
 
 main ul {
-    text-align: left;
+	text-align: left;
 }
 main li {
-    justify-content: left;
-    font-size: large;
+	justify-content: left;
+	font-size: large;
 }
 
 header h2 {
-    display: inline;
+	display: inline;
 }
 
 #date-time {
-    margin-left: 60px;
+	margin-left: 60px;
 }
 
-#error, #error-email  {
-    color: red;
+#error,
+#error-email {
+	color: red;
 }
 
 .browse {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
 
-    justify-content: first baseline;
+	justify-content: first baseline;
 }
 
 .pet {
-    padding: 8px;
-    border: 4px solid black;
-    width: 300px;
-    height: fit-content;
-    box-sizing: border-box;
-    text-align: center;
-    background-color:whitesmoke;
-    
+	padding: 8px;
+	border: 4px solid black;
+	width: 300px;
+	height: fit-content;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: whitesmoke;
 }
 .pet button {
-    margin: 8px;
-    padding: 8px;
-    font-size: 15px;
-    border-radius: 10%;
-    background-color: blanchedalmond;
+	margin: 8px;
+	padding: 8px;
+	font-size: 15px;
+	border-radius: 10%;
+	background-color: blanchedalmond;
 }
 
 .pet img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
 }
 
 .pet-info {
-    flex-grow: 1;
+	flex-grow: 1;
 }
 
 .container2 {
-    display: flex;
-    width: 80%;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
+	display: flex;
+	width: 80%;
+	gap: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-#log-in, #sign-up {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    height: 350px;
-    min-width: 200px;
-    width: 35%;
-    align-items: center;
-    padding-top: 0;
-    gap: 10px;
-    height: fit-content;
+#log-in,
+#sign-up {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	height: 350px;
+	min-width: 200px;
+	width: 35%;
+	align-items: center;
+	padding-top: 0;
+	gap: 10px;
+	height: fit-content;
 }
 
-#log-in form, #sign-up form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    width: 100%;
+#log-in form,
+#sign-up form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	width: 100%;
 }
 
-#log-in h3, #sign-up h3,
-#log-in ul, #sign-up ul, 
-#log-in li, #sign-up li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 12px;
-    width: 80%;
-    margin: 0;
-    padding: 0;
+#log-in h3,
+#sign-up h3,
+#log-in ul,
+#sign-up ul,
+#log-in li,
+#sign-up li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 12px;
+	width: 80%;
+	margin: 0;
+	padding: 0;
 }

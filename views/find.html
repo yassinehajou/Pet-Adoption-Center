@@ -1,98 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adoptable Companions</title>
-    <link href="/css/style.css" rel="stylesheet">
-</head>
-<body>
-    <div class="container">
-        <header>
-          <a href="/index.html"><img src="/images/logo.jpg" alt="logo"></a>
-            <h2>Adoptable companions</h2> 
-            <p id="date-time"></p>
-        </header>
-        <div class="content">
-            <nav id="nav">
-                <ul>
-                    <li><a href="/index.html">Home Page</a></li>
-                    <li><a href="/find.html" id="active">Find a dog/cat</a></li>
-                    <li><a href="/dog.html">Dog Care</a></li>
-                    <li><a href="/cat.html">Cat Care</a></li>
-                    <li><a href="/giveaway.html">Have a pet to give away</a></li>
-                    <li><a href="/contact.html">Contact Us</a></li>
-                    <li><a href="/account.html">Account</a></li>
-                    <li><a href="/logout" id="logout">Log Out</a></li>
-                </ul>
-            </nav>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Adoptable Companions</title>
+		<link href="/css/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<a href="/index.html"><img src="/images/logo.jpg" alt="logo" /></a>
+				<h2>Adoptable companions</h2>
+				<p id="date-time"></p>
+			</header>
+			<div class="content">
+				<nav id="nav">
+					<ul>
+						<li><a href="/index.html">Home Page</a></li>
+						<li><a href="/find.html" id="active">Find a dog/cat</a></li>
+						<li><a href="/dog.html">Dog Care</a></li>
+						<li><a href="/cat.html">Cat Care</a></li>
+						<li><a href="/giveaway.html">Have a pet to give away</a></li>
+						<li><a href="/contact.html">Contact Us</a></li>
+						<li><a href="/account.html">Account</a></li>
+						<li><a href="/logout" id="logout">Log Out</a></li>
+					</ul>
+				</nav>
 
-            <main>
-                <h1>Find a Dog or Cat!</h1>
-                <h3>Fill up the form:</h3>
-                <form id="find-form" action="/find" method="get">
-                    <label for="pet">Pet: </label>
-                    <select name="pet" id="pet" >
-                        <option value="any">Any</option>
-                        <option value="dog">Dog</option>
-                        <option value="cat">Cat</option>
-                    </select><br>
-                    <label for="breed">Breed: </label>
-                    <select name="breed" id="breed">
-                        <option value="any">Any</option>
-                        <option value="ragdoll">Ragdoll</option>
-                        <option value="abyssinian">Abyssinian</option>
-                        <option value="bengal">Bengal</option>
-                        <option value="labrador">Labrador Retriver</option>
-                        <option value="german">German Shepard</option>
-                        <option value="poodle">Poodle</option>
-                    </select><br>
-                    <label for="age">Age: </label>
-                    <select name="age" id="age">
-                        <option value="any">Any</option>
-                        <option value="young">Young(0-2 years) </option>
-                        <option value="adult">Adult(2-8 years)</option>
-                        <option value="senior">Senior(8+ years)</option>
-                    </select><br>
-                    <label for="gender">Gender: </label>
-                    <select name="gender" id="gender">
-                        <option value="any">Any</option>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                    </select><br>
-                    <label for="dogs">Needs to get along with dogs: </label>
-                    <select name="dogs" id="dogs">
-                        <option value="any">Any</option>
-                        <option value="yes">Yes</option>
-                        <option value="no">No</option>
-                    </select><br>
-                    <label for="cats">Needs to get along with cats: </label>
-                    <select name="cats" id="cats">
-                        <option value="any">Any</option>
-                        <option value="yes">Yes</option>
-                        <option value="no">No</option>
-                    </select><br>
-                    <label for="children">Needs to get along with children: </label>
-                    <select name="children" id="children">
-                        <option value="any">Any</option>
-                        <option value="yes">Yes</option>
-                        <option value="no">No</option>
-                    </select><br>
-                    <input type="reset" name="reset">
-                    <input type="submit" name="submit">
-                </form>
+				<main>
+					<h1>Find a Dog or Cat!</h1>
+					<h3>Fill up the form:</h3>
+					<form id="find-form" action="/find" method="get">
+						<label for="pet">Pet: </label>
+						<select name="pet" id="pet">
+							<option value="any">Any</option>
+							<option value="dog">Dog</option>
+							<option value="cat">Cat</option></select
+						><br />
+						<label for="breed">Breed: </label>
+						<select name="breed" id="breed">
+							<option value="any">Any</option>
+							<option value="ragdoll">Ragdoll</option>
+							<option value="abyssinian">Abyssinian</option>
+							<option value="bengal">Bengal</option>
+							<option value="labrador">Labrador Retriver</option>
+							<option value="german">German Shepard</option>
+							<option value="poodle">Poodle</option></select
+						><br />
+						<label for="age">Age: </label>
+						<select name="age" id="age">
+							<option value="any">Any</option>
+							<option value="young">Young(0-2 years)</option>
+							<option value="adult">Adult(2-8 years)</option>
+							<option value="senior">Senior(8+ years)</option></select
+						><br />
+						<label for="gender">Gender: </label>
+						<select name="gender" id="gender">
+							<option value="any">Any</option>
+							<option value="male">Male</option>
+							<option value="female">Female</option></select
+						><br />
+						<label for="dogs">Needs to get along with dogs: </label>
+						<select name="dogs" id="dogs">
+							<option value="any">Any</option>
+							<option value="yes">Yes</option>
+							<option value="no">No</option></select
+						><br />
+						<label for="cats">Needs to get along with cats: </label>
+						<select name="cats" id="cats">
+							<option value="any">Any</option>
+							<option value="yes">Yes</option>
+							<option value="no">No</option></select
+						><br />
+						<label for="children">Needs to get along with children: </label>
+						<select name="children" id="children">
+							<option value="any">Any</option>
+							<option value="yes">Yes</option>
+							<option value="no">No</option></select
+						><br />
+						<input type="reset" name="reset" />
+						<input type="submit" name="submit" />
+					</form>
 
-                <div class="browse">
-                   
-                </div>
-            </main>
-        </div>
-        
-        <footer>
-            <p><strong>This website is dedicated to helping pets find loving homes. We promise to protect your information and ensure the accuracy of the information provided by pet owners.</strong></p>
-            <br><a href="/disclaimer.html">Privacy/Disclaimer</a>
-        </footer>
-    </div>
-    <script src="/js/script.js"></script>
-</body>
+					<div class="browse"></div>
+				</main>
+			</div>
+
+			<footer>
+				<p>
+					<strong
+						>This website is dedicated to helping pets find loving homes. We
+						promise to protect your information and ensure the accuracy of the
+						information provided by pet owners.</strong
+					>
+				</p>
+				<br /><a href="/disclaimer.html">Privacy/Disclaimer</a>
+			</footer>
+		</div>
+		<script src="/js/script.js"></script>
+	</body>
 </html>
