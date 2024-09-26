@@ -1,0 +1,4 @@
+1:user1:dog:labrador:adult:male:Gets along with dogs (yes):cats (yes):children (yes):happiest dog ever:Mike Hart:mike@gmail.com
+2:user2:cat:abyssinian:senior:female:Gets along with dogs (yes):cats (yes):children (yes):very cute!:Julia:julia@gmail.com
+3:yassine:dog:poodle:young:male:Gets along with dogs (yes):cats (yes):children (yes):super young and energetic:roger:roger@gmail.com
+4:chef:cat:bengal:adult:male:Gets along with dogs (no):cats (no):children (yes):He likes me a lot:yassine:yassinehajou7@gmail.com
