@@ -1,78 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adoptable Companions</title>
-    <link href="/css/style.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-    <div class="container">
-        <header>
-          <a href="/index.html"><img src="/images/logo.jpg" alt="logo"></a>
-            <h2>Adoptable companions</h2> 
-            <p id="date-time"></p>
-        </header>
-        <div class="content">
-            <nav id="nav">
-                <ul>
-                    <li><a href="/index.html">Home Page</a></li>
-                    <li><a href="/find.html">Find a dog/cat</a></li>
-                    <li><a href="/dog.html">Dog Care</a></li>
-                    <li><a href="/cat.html">Cat Care</a></li>
-                    <li><a href="/giveaway.html">Have a pet to give away</a></li>
-                    <li><a href="/contact.html">Contact Us</a></li>
-                    <li><a href="/account.html" id="active">Account</a></li>
-                    <li><a href="/logout" id="logout">Log Out</a></li>
-                </ul>
-            </nav>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Adoptable Companions</title>
+		<link href="/css/style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<a href="/index.html"><img src="/images/logo.jpg" alt="logo" /></a>
+				<h2>Adoptable companions</h2>
+				<p id="date-time"></p>
+			</header>
+			<div class="content">
+				<nav id="nav">
+					<ul>
+						<li><a href="/index.html">Home Page</a></li>
+						<li><a href="/find.html">Find a dog/cat</a></li>
+						<li><a href="/dog.html">Dog Care</a></li>
+						<li><a href="/cat.html">Cat Care</a></li>
+						<li><a href="/giveaway.html">Have a pet to give away</a></li>
+						<li><a href="/contact.html">Contact Us</a></li>
+						<li><a href="/account.html" id="active">Account</a></li>
+						<li><a href="/logout" id="logout">Log Out</a></li>
+					</ul>
+				</nav>
 
-            <main>
-                <h1>Log In / Sign Up</h1>
-                <div class="container2">
-                    <div id="log-in">
-                        <h2>Log In</h2>
-                        <form action="/login" method="post" id="login-form">
-                            <label for="username">Username:</label>
-                            <input type="text" name="username" required><br>
-                            <label for="password">Password:</label>
-                            <input type="text" name="password" required><br>
-                            <button type="submit" name="submit">Log In</button>
-                        </form>
-                        <div id="login-msg"></div>
-                    </div>
+				<main>
+					<h1>Log In / Sign Up</h1>
+					<div class="container2">
+						<div id="log-in">
+							<h2>Log In</h2>
+							<form action="/login" method="post" id="login-form">
+								<label for="username">Username:</label>
+								<input type="text" name="username" required /><br />
+								<label for="password">Password:</label>
+								<input type="text" name="password" required /><br />
+								<button type="submit" name="submit">Log In</button>
+							</form>
+							<div id="login-msg"></div>
+						</div>
 
-                    <div id="sign-up">
-                        <h2>Sign Up</h2>
-                        <form action="/signup" method="post" id="signup-form">
-                            <label for="username">Username:</label>
-                            <input type="text" name="username" required><br>
-                            <label for="password">Password:</label>
-                            <input type="text" name="password" required><br>
-                            <button type="submit" name="submit">Sign Up</button><br>
-                        </form>
-                        
-                        <h3>Username Requirements</h3>
-                        <ul>
-                            <li>Only leters and digits</li>
-                        </ul>
-                        <h3>Password Requirements</h3>
-                        <ul>
-                            <li>Only letters and digits</li>
-                            <li>At least 4 characters</li>
-                            <li>At least 1 digit and 1 character</li>
-                        </ul>
-                        <div id="signup-msg"></div>
-                    </div>
-                </div>    
-            </main>
-        </div>
-        
-        <footer>
-            <p><strong>This website is dedicated to helping pets find loving homes. We promise to protect your information and ensure the accuracy of the information provided by pet owners.</strong></p>
-            <br><a href="/disclaimer.html">Privacy/Disclaimer</a>
-        </footer>
-    </div>
-    <script src="/js/script.js"></script>
-</body>
+						<div id="sign-up">
+							<h2>Sign Up</h2>
+							<form action="/signup" method="post" id="signup-form">
+								<label for="username">Username:</label>
+								<input type="text" name="username" required /><br />
+								<label for="password">Password:</label>
+								<input type="text" name="password" required /><br />
+								<button type="submit" name="submit">Sign Up</button><br />
+							</form>
+
+							<h3>Username Requirements</h3>
+							<ul>
+								<li>Only leters and digits</li>
+							</ul>
+							<h3>Password Requirements</h3>
+							<ul>
+								<li>Only letters and digits</li>
+								<li>At least 4 characters</li>
+								<li>At least 1 digit and 1 character</li>
+							</ul>
+							<div id="signup-msg"></div>
+						</div>
+					</div>
+				</main>
+			</div>
+
+			<footer>
+				<p>
+					<strong
+						>This website is dedicated to helping pets find loving homes. We
+						promise to protect your information and ensure the accuracy of the
+						information provided by pet owners.</strong
+					>
+				</p>
+				<a href="/disclaimer.html">Privacy/Disclaimer</a>
+			</footer>
+		</div>
+		<script src="/js/script.js"></script>
+	</body>
 </html>

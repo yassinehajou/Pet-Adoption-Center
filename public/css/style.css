@@ -58,7 +58,7 @@ form select {
 main {
 	display: flex;
 	flex-direction: column;
-	background-color: rgb(241, 241, 241);
+	background-color: rgb(250, 250, 250);
 	padding: 20px;
 	width: 100%;
 	align-items: center;
